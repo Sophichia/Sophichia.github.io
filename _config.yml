@@ -19,7 +19,7 @@ footer:
 # Author 配置博主信息
 author: 'Mengjia Liang'
 nickname: ''
-bio: '混日子的copy—paster'
+bio: '职业copy—paster'
 avatar: '/assets/img/profile.jpg'
 
 # Search
@@ -31,7 +31,14 @@ nightMode: true
 # Comments 评论功能
 comments:
   disqus: false
-  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+
+  gitalk: true
+  gitalk_clientID: '8e258e2f5eaedf3153ec'
+  gitalk_Secret: 'cbac0720400f6f63b23a8df07a856888650d717e'
+  gitalk_repo: 'Sophichia.github.io'
+  gitalk_owner: 'Sophichia'
+  gitalk_admin: 'Sophichia'
+  distractionFreeMode: true
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
